@@ -6,7 +6,7 @@ package string_processing;
 
 public class ValidPalindrome125 {
     public boolean isPalindrome(String s) {
-        // alphnumeric하지 않은 요소들을 전부 제거하고 최종적으로 담을 변수
+        // alphnumeric하지 않은 요소들을 전부 제거하고 최종적으로 담을 변수 
         StringBuilder sb = new StringBuilder();
 
         // 입력받은 문자열을 char 배열로 저장
